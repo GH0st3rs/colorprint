@@ -16,29 +16,29 @@ import re
 __all__ = ["cprint"]
 
 colors = {
-	'nc' : '\033[0m', #по умолчанию
-	'bold' : '\033[1m', #усиленный (жирный или более интенсивный цвет)
-	'low' : '\033[2m', #ослабленный (нежирный или менее интенсивный цвет)
-	'underlined' : '\033[4m', #подчёркнутый
-	'negative' : '\033[7m', #негативные цвета
-	'hide' : '\033[8m', #скрытый
-	'error' : '\033[9m', #перечёркнутый
-	'black' : '\033[30m', #черный
-	'red' : '\033[31m', #красный
-	'green' : '\033[32m', #зелёный
-	'yellow' : '\033[33m', #желтый
-	'blue' : '\033[34m', #синий
-	'magenta' : '\033[35m', #пурпурный
-	'cyan' : '\033[36m', #голубой
-	'white' : '\033[37m', #белый (светло-серый)
-	'lblack' : '\033[90m', #ярко-черный
-	'lred' : '\033[91m', #ярко-красный
-	'lgreen' : '\033[92m', #ярко-зелёный
-	'lyellow' : '\033[93m', #ярко-желтый
-	'lblue' : '\033[94m', #ярко-синий
-	'lmagenta' : '\033[95m', #ярко-пурпурный
-	'lcyan' : '\033[96m', #ярко-голубой
-	'lwhite' : '\033[97m', #ярко-белый
+	'nc' : '\033[0m', #po umolchaniyu
+	'bold' : '\033[1m', #usilennyj (zhirnyj ili bolee intensivnyj cvet)
+	'low' : '\033[2m', #oslablennyj (nezhirnyj ili menee intensivnyj cvet)
+	'underlined' : '\033[4m', #podchyorknutyj
+	'negative' : '\033[7m', #negativnye cveta
+	'hide' : '\033[8m', #skrytyj
+	'error' : '\033[9m', #perechyorknutyj
+	'black' : '\033[30m', #chernyj
+	'red' : '\033[31m', #krasnyj
+	'green' : '\033[32m', #zelyonyj
+	'yellow' : '\033[33m', #zheltyj
+	'blue' : '\033[34m', #sinij
+	'magenta' : '\033[35m', #purpurnyj
+	'cyan' : '\033[36m', #goluboj
+	'white' : '\033[37m', #belyj (svetlo-seryj)
+	'lblack' : '\033[90m', #yarko-chernyj
+	'lred' : '\033[91m', #yarko-krasnyj
+	'lgreen' : '\033[92m', #yarko-zelyonyj
+	'lyellow' : '\033[93m', #yarko-zheltyj
+	'lblue' : '\033[94m', #yarko-sinij
+	'lmagenta' : '\033[95m', #yarko-purpurnyj
+	'lcyan' : '\033[96m', #yarko-goluboj
+	'lwhite' : '\033[97m', #yarko-belyj
 }
 
 def cprint(txt, gettxt=False):
