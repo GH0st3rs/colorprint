@@ -11,7 +11,7 @@ underlined, lcyan, lblack, lyellow, lwhite, green, lred, error
 #-*- coding: utf-8 -*-
 # Author: Ghost of Night
 
-import re
+from re import findall
 
 __all__ = ["cprint"]
 
@@ -43,7 +43,7 @@ colors = {
 
 def cprint(txt, gettxt=False):
 	txt = '%s{nc}' %(txt)
-	colorList = re.findall('{([a-z]+)}', txt)
+	colorList = findall('{([a-z]+)}', txt)
 	for color in colorList:
 		txt = txt.replace('{%s}' %(color), colors[color])
 	if gettxt == False: print(txt)
