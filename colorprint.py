@@ -1,3 +1,7 @@
+#!/usr/bin/python
+#-*- coding: utf-8 -*-
+# Author: Ghost of Night
+
 """
 Print colored text to the console
   cprint('{lred}%s {nc}=> {lyellow}%s {nc}: {lgreen}%s' %('Server', 'Service Name', 'Port'))
@@ -26,10 +30,6 @@ Supported colors:
 'lcyan' : #ярко-голубой
 'lwhite' : #ярко-белый
 """
-
-#!/usr/bin/python
-#-*- coding: utf-8 -*-
-# Author: Ghost of Night
 
 import re
 
