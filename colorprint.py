@@ -1,8 +1,39 @@
+"""
+Print colored text to the console
+  cprint('{lred}%s {nc}=> {lyellow}%s {nc}: {lgreen}%s' %('Server', 'Service Name', 'Port'))
+Supported colors:
+'nc' : #по умолчанию
+'bold' : #усиленный (жирный или более интенсивный цвет)
+'low' : #ослабленный (нежирный или менее интенсивный цвет)
+'underlined' : #подчёркнутый
+'negative' : #негативные цвета
+'hide' : #скрытый
+'error' : #перечёркнутый
+'black' : #черный
+'red' : #красный
+'green' : #зелёный
+'yellow' : #желтый
+'blue' : #синий
+'magenta' : #пурпурный
+'cyan' : #голубой
+'white' : #белый (светло-серый)
+'lblack' : #ярко-черный
+'lred' : #ярко-красный
+'lgreen' : #ярко-зелёный
+'lyellow' : #ярко-желтый
+'lblue' : #ярко-синий
+'lmagenta' : #ярко-пурпурный
+'lcyan' : #ярко-голубой
+'lwhite' : #ярко-белый
+"""
+
 #!/usr/bin/python
 #-*- coding: utf-8 -*-
 # Author: Ghost of Night
 
 import re
+
+__all__ = ["cprint"]
 
 colors = {
         'nc' : '\033[0m', #по умолчанию
