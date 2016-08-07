@@ -1,6 +1,12 @@
 # colorprint
 Color print function for Python
 
+##Install:
+```bash
+$ sudo python setup.py sdist
+$ sudo python setup.py install
+```
+
 Usample usage:
 ```python
 from colorprint import cprint
