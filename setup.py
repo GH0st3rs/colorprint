@@ -10,6 +10,7 @@ setup(
 	long_description=open(join(dirname(__file__), 'README.md')).read(),
 	url='https://github.com/GH0st3rs/colorprint',
 	author='GH0st3rs',
+	author_email='',
 	packages=find_packages(),
 	classifiers=[
 		'Development Status :: 5 - Production/Stable',
