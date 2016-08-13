@@ -46,4 +46,9 @@ def cprint(txt, gettxt=False):
 	colorList = findall('{([a-z]+)}', txt)
 	for color in colorList:
 		txt = txt.replace('{%s}' %(color), colors[color])
-	if gettxt == False: print(txt)
+	if gettxt == False:
+		print(txt)
+	else:
+		return txt
+
+	
