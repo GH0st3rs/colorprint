@@ -1,3 +1,5 @@
-from colorprint import cprint
+#!/usr/bin/env python
+
+from colorprint.clrprint import cprint
 
 __all__ = ["cprint"]
