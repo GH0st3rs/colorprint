@@ -49,6 +49,5 @@ def cprint(txt, gettxt=False):
 	if gettxt == False:
 		print(txt)
 	else:
+		txt = txt.replace('\','\\')
 		return txt
-
-	
