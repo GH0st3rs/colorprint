@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "colorprint"
+version = "1.0.1"
+description = "Color print function for Python"
+authors = ["GH0st3rs <GH0st3rs@users.noreply.github.com>"]
+license = "GNU General Public License v3 or later (GPLv3+)"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

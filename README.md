@@ -3,8 +3,8 @@ Color print function for Python
 
 ##Install:
 ```bash
-$ sudo python setup.py sdist
-$ sudo python setup.py install
+git clone git@github.com:GH0st3rs/colorprint.git
+cd colorprint && pip install -e .
 ```
 
 Usample usage:
@@ -16,7 +16,7 @@ cprint('{lred}%s {nc}=> {lyellow}%s {nc}: {lgreen}%s' %('Server', 'Service Name'
 ![example_image](https://cloud.githubusercontent.com/assets/20622766/17458852/78a6cf04-5c32-11e6-9314-3dfc2e1202de.png)
 
 ##You can choose next colors
-```pyton
+```python
 'nc' : #по умолчанию
 'bold' : #усиленный (жирный или более интенсивный цвет)
 'low' : #ослабленный (нежирный или менее интенсивный цвет)
